@@ -1,5 +1,5 @@
 # basic-remote-configs
-Bare-bones remote config library
+Bare-bones remote config library for android and iOS
 
 Example of config format
 ```json
