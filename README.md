@@ -20,6 +20,6 @@ Example of config format
 ## In practice
 This repo is hosting an [example config json file](/examples/simple.json). This example config is currently being consumed by the [Android Library's](https://github.com/BradPatras/brc-android) sample app. 
 
-In the current state of the library, config files need to be publicly accessible. 🤷🏻‍♂️ 
+⚠️ &nbsp; In the current state of the library, config files need to be publicly accessible. 🤷🏻‍♂️ 
 
 Check out the individual android/iOS library pages for language-specific examples of the library in action.
