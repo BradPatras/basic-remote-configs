@@ -5,7 +5,7 @@ Example of config format
 ```json
 {
   "ver": 1,
-  "exampleFlag": true
+  "exampleFlag": true,
   "exampleMessage": null
 }
 ```
