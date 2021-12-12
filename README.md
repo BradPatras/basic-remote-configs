@@ -5,7 +5,7 @@ Bare-bones remote config platform for android and iOS.  Motivation for this proj
 #### Android library repo: [brc-android](https://www.github.com/BradPatras/brc-android)
 #### iOS library repo: `// todo`
 
-## Config file specification
+## Config file format
 Configs are in JSON format. Compatible data types include `integer`, `string`, `boolean`, `null`, and `array(integer|string|boolean)`. Nested objects are not supported.
 
 Example of config format
