@@ -12,8 +12,10 @@ Example of config format
 ```json
 {
   "ver": 1,
-  "exampleFlag": true,
-  "exampleMessage": null
+  "someFlag": false,
+  "someMessage": "Welcome to easy config!",
+  "nullValue": null,
+  "arrayOfWords": ["super", "duper", "simple", "configs"]
 }
 ```
 `ver` is an integer value representing the config file's version. It's not required, but the client libraries use this value to publish only updates to listeners after fetching configs.
