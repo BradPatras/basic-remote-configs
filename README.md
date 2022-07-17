@@ -2,8 +2,8 @@
 # basic-remote-configs  🛰📝
 Bare-bones remote config platform for android and iOS.  Motivation for this project is having simple remote configs in my app projects where pulling in Firebase would be overkill.
 
-#### Android library repo: [brc-android](https://www.github.com/BradPatras/brc-android)
-#### iOS library repo: `// todo`
+#### Android library repo: [brc-android](https://github.com/BradPatras/brc-android)
+#### iOS library repo: [brc-ios](https://github.com/BradPatras/brc-ios)
 
 ## Config file format
 Configs are in JSON format. Compatible data types include `integer`, `string`, `boolean`, `null`, and `array(integer|string|boolean)`. Nested objects are not supported.
