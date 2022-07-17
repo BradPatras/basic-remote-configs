@@ -1,4 +1,5 @@
 [![Maven Central](https://maven-badges.herokuapp.com/maven-central/io.github.bradpatras/brc-android/badge.png)](https://maven-badges.herokuapp.com/maven-central/io.github.bradpatras/brc-android)
+[![spm version](https://img.shields.io/badge/Swift%20Package%20Manager-0.1.0-blue)](https://github.com/BradPatras/brc-ios/releases)
 # basic-remote-configs  🛰📝
 Bare-bones remote config platform for android and iOS.  Motivation for this project is having simple remote configs in my app projects where pulling in Firebase would be overkill.
 
