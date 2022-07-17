@@ -22,7 +22,7 @@ Example of config format
 `ver` is an integer value representing the config file's version. It's not required, but the client libraries use this value to publish only updates to listeners after fetching configs.
 
 ## In practice
-This repo is hosting an [example config json file](/examples/simple.json). This example config is currently being consumed by the [Android Library's](https://github.com/BradPatras/brc-android) sample app. 
+This repo is hosting an [example config json file](/examples/simple.json). This example config is currently being consumed by the [Android](https://github.com/BradPatras/brc-android) and [iOS](https://github.com/BradPatras/brc-ios) library's sample apps. 
 
 ⚠️ &nbsp; In the current state of the library, config files need to be publicly accessible. 🤷🏻‍♂️ 
 
