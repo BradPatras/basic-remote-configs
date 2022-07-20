@@ -24,6 +24,6 @@ Example of config format
 ## In practice
 This repo is hosting an [example config json file](/examples/simple.json). This example config is currently being consumed by the [Android](https://github.com/BradPatras/brc-android) and [iOS](https://github.com/BradPatras/brc-ios) library's sample apps. 
 
-🔐 &nbsp; Both libraries offer the ability to provide custom headers to facilitate auth tokens or whatever else.
+🔐 &nbsp; Both libraries allow for custom request headers to facilitate auth tokens or whatever else you might need.
 
 Check out the individual android/iOS library pages for language-specific examples of the library in action.
