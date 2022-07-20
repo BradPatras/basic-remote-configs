@@ -19,11 +19,11 @@ Example of config format
   "arrayOfWords": ["super", "duper", "simple", "configs"]
 }
 ```
-`ver` is an integer value representing the config file's version. It's not required, but the client libraries use this value to publish only updates to listeners after fetching configs.
+`ver` is an integer value representing the config file's version. It's not required, but if it's present the client libraries will use this value when deciding if a their local cache needs updating.
 
 ## In practice
 This repo is hosting an [example config json file](/examples/simple.json). This example config is currently being consumed by the [Android](https://github.com/BradPatras/brc-android) and [iOS](https://github.com/BradPatras/brc-ios) library's sample apps. 
 
-⚠️ &nbsp; In the current state of the library, config files need to be publicly accessible. 🤷🏻‍♂️ 
+🔐 &nbsp; Both libraries offer the ability to provide custom headers to facilitate auth tokens or whatever else.
 
 Check out the individual android/iOS library pages for language-specific examples of the library in action.
