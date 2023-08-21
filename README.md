@@ -19,7 +19,7 @@ Example of config format
   "arrayOfWords": ["super", "duper", "simple", "configs"]
 }
 ```
-`ver` is an integer value representing the config file's version. It's not required, but if it's present the client libraries will use this value when deciding if a their local cache needs updating.
+`ver` is an integer value representing the config file's version. It's not required, but if it's present the client libraries will use this value when deciding if their local cache needs updating.
 
 ## In practice
 This repo is hosting an [example config json file](/examples/simple.json). This example config is currently being consumed by the [Android](https://github.com/BradPatras/brc-android) and [iOS](https://github.com/BradPatras/brc-ios) library's sample apps. 
