@@ -1,5 +1,5 @@
 {
-  "ver": 1,
+  "v": 1,
   "someFlag": false,
   "someMessage": "Welcome to easy config!",
   "nullValue": null,
